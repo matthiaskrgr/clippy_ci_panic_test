@@ -3,5 +3,5 @@
 
 #![allow(internal_features)]
 #![feature(rustc_attrs)]
-#[rustc_error(delay_span_bug_from_inside_query)]
+#[rustc_error(span_delayed_bug_from_inside_query)]
 fn main() {}
